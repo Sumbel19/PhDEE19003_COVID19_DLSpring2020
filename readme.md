@@ -1,9 +1,19 @@
 # DATASET
 https://drive.google.com/open?id=1eytbwaLQBv12psV8I-aMkIli9N3bf8nO
 
+
+# WEIGHTS
+
+## VGG-16 (with Focal Loss)
+https://drive.google.com/open?id=1zis44NdIzMYUgVjP2xUzFZr1ZD_NdOmi
+
+## ResNet-18 (with Focal Loss)
+https://drive.google.com/open?id=1zskCyPb9Cm3WcANxIBdyNLYpwV1KWj2I
+
+
 # RESULTS
 
-## VGG-16 with Binary Cross Entropy
+## VGG-16 with Binary Cross Entropy (F1-Scores: Covid-19 = 0.05 ; pneumonia = 0.4  ; normal = 0.65)
 
 ### Accuracy Curve for Training Data
 ![4train_exp_7_acc](https://user-images.githubusercontent.com/60807983/80918998-145a9600-8d81-11ea-8d76-652499afde81.png)
@@ -24,7 +34,7 @@ https://drive.google.com/open?id=1eytbwaLQBv12psV8I-aMkIli9N3bf8nO
 ![4val_exp_7_cf](https://user-images.githubusercontent.com/60807983/80919036-3ce29000-8d81-11ea-86b2-faebfe62685a.png)
 
 
-## VGG-16 with Focal Loss
+## VGG-16 with Focal Loss (F1-Scores: Covid-19 = 0.11 ; pneumonia = 0.44  ; normal = 0.70)
 
 ### Accuracy Curve for Training Data
 ![2train_exp_2_acc](https://user-images.githubusercontent.com/60807983/80919304-b0d16800-8d82-11ea-8a50-5554d695b622.png)
@@ -45,7 +55,7 @@ https://drive.google.com/open?id=1eytbwaLQBv12psV8I-aMkIli9N3bf8nO
 ![2val_exp_2_cf](https://user-images.githubusercontent.com/60807983/80919344-cd6da000-8d82-11ea-83d2-2b0205850c31.png)
 
 
-## ResNet-18 with Binary Cross Entropy
+## ResNet-18 with Binary Cross Entropy (F1-Scores: Covid-19 = 0.68 ; pneumonia = 0.83  ; normal = 0.90)
 
 ### Accuracy Curve for Training Data
 ![2train_exp_5_acc](https://user-images.githubusercontent.com/60807983/80919396-2a695600-8d83-11ea-9c47-bde5022579ac.png)
@@ -66,7 +76,7 @@ https://drive.google.com/open?id=1eytbwaLQBv12psV8I-aMkIli9N3bf8nO
 ![2val_exp_5_cf](https://user-images.githubusercontent.com/60807983/80919431-466cf780-8d83-11ea-8a15-40c7cbb60019.png)
 
 
-## ResNet-18 with Focal Loss
+## ResNet-18 with Focal Loss (F1-Scores: Covid-19 = 0.19 ; pneumonia = 0.44  ; normal = 0.72)
 
 ### Accuracy Curve for Training Data
 ![4train_exp_4_acc](https://user-images.githubusercontent.com/60807983/80919489-9350ce00-8d83-11ea-9f04-9b3e060d3600.png)
